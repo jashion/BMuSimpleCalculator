@@ -21,40 +21,13 @@ class ViewController: UIViewController {
     var performingMath = false
     var canOperation = false
     var operation = ""
+    
     var maxNumberCount = 0 //留出一位用来显示：-和.
     var realNumberCount = 0
     
     let formatter = NumberFormatter() //处理整数或者小数位位超过realNumberCount的情况
     let formatter2 = NumberFormatter() //处理整数位和小数位之和超过realNumberCount的情况
-     
-    @IBOutlet weak var resultLabel: UILabel!
-    @IBOutlet weak var maxNumberCountLabel: UILabel!
-    
-    @IBOutlet weak var clear: UIButton!
-    @IBOutlet weak var delete: UIButton!
-    
-    @IBOutlet weak var division: UIButton!
-    @IBOutlet weak var mutiplication: UIButton!
-    @IBOutlet weak var subtraction: UIButton!
-    @IBOutlet weak var addition: UIButton!
-    @IBOutlet weak var modSymbol: UIButton!
-    
-    @IBOutlet weak var equalSymbol: UIButton!
-    
-    @IBOutlet weak var posOrNeg: UIButton!
-    
-    @IBOutlet weak var numberNine: UIButton!
-    @IBOutlet weak var numberEight: UIButton!
-    @IBOutlet weak var numberSeven: UIButton!
-    @IBOutlet weak var numberSix: UIButton!
-    @IBOutlet weak var numberFive: UIButton!
-    @IBOutlet weak var numberFour: UIButton!
-    @IBOutlet weak var numberThree: UIButton!
-    @IBOutlet weak var numberTwo: UIButton!
-    @IBOutlet weak var numberOne: UIButton!
-    @IBOutlet weak var numberZero: UIButton!
-    @IBOutlet weak var dotSymbol: UIButton!
-            
+                 
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -212,7 +185,7 @@ class ViewController: UIViewController {
                     numberOnScreen = previousNumber / num
                     handleNumber()
                 } else {
-                    resultLabel.text = "Error"
+                    resultLabel.text = error
                 }
             default:
                 break
@@ -227,6 +200,8 @@ class ViewController: UIViewController {
         previousNumber = 0
         numberOnScreen = 0
         operation = ""
+        performingMath = false
+        canOperation = false
         resultLabel.text = "0"
     }
     

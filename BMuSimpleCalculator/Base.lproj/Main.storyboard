@@ -440,28 +440,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="addition" destination="K4L-iF-1Mi" id="5x0-Mv-Wag"/>
-                        <outlet property="clear" destination="7W3-GL-w3l" id="Q2G-PK-eQJ"/>
-                        <outlet property="delete" destination="EVX-XT-STR" id="eFD-8a-IkT"/>
-                        <outlet property="division" destination="x5O-K6-lfZ" id="3A1-69-y2Q"/>
-                        <outlet property="dotSymbol" destination="y6j-j3-Lz7" id="IIN-xF-fkV"/>
-                        <outlet property="equalSymbol" destination="nb9-42-cYh" id="k31-BF-1lh"/>
                         <outlet property="maxNumberCountLabel" destination="kt5-bf-YeG" id="IFH-aC-TOn"/>
-                        <outlet property="modSymbol" destination="opV-6r-Cyf" id="gyf-Ka-wLS"/>
-                        <outlet property="mutiplication" destination="Qua-ha-89q" id="HAR-oo-Jkh"/>
-                        <outlet property="numberEight" destination="S7Q-5U-LWk" id="GRe-tV-BKS"/>
-                        <outlet property="numberFive" destination="qkz-Tk-nMw" id="tTq-3B-85E"/>
-                        <outlet property="numberFour" destination="PdM-Zt-dKh" id="ezo-6o-HNm"/>
-                        <outlet property="numberNine" destination="coc-Ee-XUF" id="qCU-Za-XFi"/>
-                        <outlet property="numberOne" destination="gOQ-58-Dpk" id="RLQ-UF-vLd"/>
-                        <outlet property="numberSeven" destination="7Sh-hf-GU6" id="eEu-QD-lgO"/>
-                        <outlet property="numberSix" destination="BWe-mP-WYZ" id="osX-Si-bfa"/>
-                        <outlet property="numberThree" destination="EUS-92-eIr" id="cs0-EC-JLE"/>
-                        <outlet property="numberTwo" destination="8DY-Zf-Oqq" id="P4i-Ka-LrB"/>
-                        <outlet property="numberZero" destination="5t6-TK-6vB" id="nsf-2y-39m"/>
-                        <outlet property="posOrNeg" destination="m3f-NI-hQd" id="3WG-M6-mx6"/>
                         <outlet property="resultLabel" destination="NP1-f1-84h" id="5UH-C6-N78"/>
-                        <outlet property="subtraction" destination="mJg-LO-Y2k" id="zQ8-cb-dW8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
