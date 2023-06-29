@@ -18,8 +18,8 @@ class ViewController: UIViewController {
     
     var numberOnScreen = 0.0
     var previousNumber = 0.0
-    var performingMath = false
-    var canOperation = false
+    var performingMath = false //正在输入运算符
+    var canOperation = false //可以计算
     var operation = ""
     
     var maxNumberCount = 0 //留出一位用来显示：-和.
