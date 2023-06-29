@@ -27,6 +27,9 @@ class ViewController: UIViewController {
     
     let formatter = NumberFormatter() //处理整数或者小数位位超过realNumberCount的情况
     let formatter2 = NumberFormatter() //处理整数位和小数位之和超过realNumberCount的情况
+    
+    @IBOutlet weak var resultLabel: UILabel!
+    @IBOutlet weak var maxNumberCountLabel: UILabel!
                  
     override func viewDidLoad() {
         super.viewDidLoad()
